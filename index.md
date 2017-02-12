@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/srsonom/notes/edit/master/index.md) to maintain and preview the content for your website in Markdown files. Hello, world. Test.
 
-{{ srsonom.github.io/notes/ }}/pdfs/PHYS222_ExamA.pdf
+[Intro.pdf](http://USERNAME.github.io/notes/docs/PHYS222_ExamA.pdf)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. Hello, world. Test.
 
