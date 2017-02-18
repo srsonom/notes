@@ -66,7 +66,76 @@ Two Null Identitites
 
 \noindent
 \textbf{Maxwell's Equations}
-%
-%current edit
-%
+
+\begin{displaymath}
+\vec{E}(x,y,z,t), \vec{H}, \vec{D}, \vec{B}, \vec{J}, \varphi_{v} 
+\end{displaymath}
+
+\noindent
+Faraday
+\begin{displaymath}
+\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}
+\end{displaymath}
+
+\noindent
+Ampere
+\begin{displaymath}
+\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}
+\end{displaymath}
+
+\noindent
+Gauss
+\begin{displaymath}
+\nabla \cdot \vec{D} = \varphi_{v}
+\end{displaymath}
+
+\noindent
+No Magnetic Charges
+\begin{displaymath}
+\nabla \cdot \vec{B} = 0
+\end{displaymath}
+
+\noindent
+Modified Ampere's Law
+\begin{displaymath}
+\frac{\delta \vec{D}}{\delta t}
+\end{displaymath}
+
+\noindent
+\textbf{Special Cases of Maxwell's Equations: Static $\vec{E}$ and $\vec{H}$}
+
+\begin{displaymath}
+\vec{E}, \vec{H} = f(x,y,z) \neq f(t) \rightarrow \frac{\delta}{\delta t} = 0
+\end{displaymath}
+
+\noindent
+Faraday
+\begin{displaymath}
+\nabla \times \vec{E} = 0 \qquad \qquad \qquad \oint\limits_C \vec{E} \cdot \vec{dl} = 0
+\end{displaymath}
+
+\noindent
+Ampere
+\begin{displaymath}
+\nabla \times \vec{H} = \vec{J} \qquad \qquad \qquad \oint\limits_C \vec{H} \cdot \vec{dl} = I
+\end{displaymath}
+
+\noindent
+Gauss
+\begin{displaymath}
+\nabla \times \vec{D} = \varphi_{v} \qquad \qquad \qquad \oint\limits_C \vec{D} \cdot \vec{ds} = Q
+\end{displaymath}
+
+\noindent
+No Magnetic Charges
+\begin{displaymath}
+\nabla \times \vec{B} = 0 \qquad \qquad \qquad \oint\limits_C \vec{B} \cdot \vec{ds} = 0
+\end{displaymath}
+
+\noindent
+Modified Ampere's Law
+\begin{displaymath}
+\frac{\delta \vec{D}}{\delta t}
+\end{displaymath}
+
 \end{document}
