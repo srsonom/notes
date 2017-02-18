@@ -4,8 +4,6 @@
 
 \begin{document}
 
-Lecture 1
-
 \noindent
 \textbf{Summary of Coordinate Transformations}\\
 
@@ -16,8 +14,6 @@ Cylindrical to Cartesian\\
 \noindent
 Cartesian to Spherical\\
 Spherical to Cartesian\\
-
-Lecture 2
 
 \noindent
 \textbf{Divergence Theorum and Curl}\\
