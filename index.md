@@ -2,7 +2,9 @@
 
 The link below leads to my Notes Drive until I become more familiar with GitHub Pages
 
-[Notes Drive](https://drive.google.com/drive/folders/0B0HXA1by3SRzeHFWR2xZVUlyTEk?usp=sharing)
+
+[PHYS 222 Exam A Review](PHYS_222_ExamA.pdf)
+
 
 Currently contains
 - PHYS 222 Exam A Review
