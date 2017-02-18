@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+Lecture 1
+
+\noindent
+\textbf{Summary of Coordinate Transformations}\\
+
+\noindent
+Cartesian to Cylindrical\\
+Cylindrical to Cartesian\\
+
+\noindent
+Cartesian to Spherical\\
+Spherical to Cartesian\\
+
+Lecture 2
+
+\noindent
+\textbf{Divergence Theorum and Curl}\\
+
+\noindent
+Gradient - Scalar Field \\
+Divergence - Vector Field \\
+
+\noindent
+If \begin{math} \nabla \cdot \vec{A} = 0  \end{math} then \begin{math} \vec{A} = \end{math} solenoidal vector fied (whatever goes in comes out) \\
+
+\noindent
+Divergence Theorum
+
+\begin{displaymath}\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS} \end{displaymath}
+\begin{displaymath} \int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS} \end{displaymath}
+
+\noindent
+Circulation of $\vec{A}$ around countour C
+
+\begin{displaymath}
+\Delta \oint\limits_C \vec{A} \vec{dl}
+\end{displaymath}
+*** $\Delta$ is underlined in Nguyen's notation. Look into this. \\
+
+%%%%
+\noindent
+Curl
+\begin{displaymath}
+\nabla \times \vec{A} = \frac{1}{\Delta s} \lim_{\Delta s \to \O} \oint\limits_S \vec{A} \vec{dl} 
+\end{displaymath}
+
+\noindent
+Stoke's Theorum
+
+\begin{displaymath}
+\int\limits_S \nabla \times \vec{A} \cdot \vec{ds} = \oint\limits_C \vec{A} \cdot \vec{dl}
+\end{displaymath}
+
+\noindent
+Two Null Identitites
+
+\begin{displaymath}
+\nabla \times (\nabla V) \equiv 0
+\end{displaymath}
+
+\begin{displaymath}
+\nabla \cdot (\nabla \vec{A}) \equiv 0
+\end{displaymath}
+
+\noindent
+\textbf{Maxwell's Equations}
+
+\end{document}
