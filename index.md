@@ -1,7 +1,7 @@
 # Spring 2017 LATEX Notes
 
 ## ECEN 322
-None
+IN PROGRESS: [Equation Sheet](PDF/ECEN322_Equations.pdf)
 
 ## ECEN 314
 None
