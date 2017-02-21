@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{center}
+\textbf{Variable Key}\\
+\end{center}
+
+
+\begin{tabular}{ l c l }
+E & &Electric Field Intensity\\
+D & & Electric Current Density\\
+H & & Magnetic Field Intensity\\
+B & & Magnetic Flux Density\\
+$\varphi _{v}$ & & Charge Density \\
+$\epsilon _{0}$ & & Permittivity \\
+J & & Density \\
+V & & Electric Potential\\
+Q & & Charge\\
+$q_{ev}$& &Electric Current Density\\
+\end{tabular}
+
+\end{document}
