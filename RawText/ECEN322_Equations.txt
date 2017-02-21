@@ -87,9 +87,9 @@ Faraday & & $\nabla \times \vec{E} = 0$ & $\oint\limits_C \vec{E} \cdot \vec{dl}
 
 Ampere & & $\nabla \times \vec{H} = \vec{J}$ & $\oint\limits_C \vec{H} \cdot \vec{dl} = I$ \\ \\
 
-Gaus & & $\nabla \times \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
+Gaus & & $\nabla \cdot \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
 
-No Magnetic Charges & & $\nabla \times \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
+No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
 
 Modified Ampere's Law & & $\frac{\delta \vec{D}}{\delta t}$ \\ \\
 
