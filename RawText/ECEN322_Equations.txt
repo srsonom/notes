@@ -91,51 +91,30 @@ Gauss
 
 \noindent
 No Magnetic Charges
-\begin{displaymath}
-\nabla \cdot \vec{B} = 0
-\end{displaymath}
+$\nabla \cdot \vec{B} = 0$
 
 \noindent
 Modified Ampere's Law
-\begin{displaymath}
-\frac{\delta \vec{D}}{\delta t}
-\end{displaymath}
+$\frac{\delta \vec{D}}{\delta t}$
 
 \noindent
 \textbf{Special Cases of Maxwell's Equations: Static $\vec{E}$ and $\vec{H}$}
-
-\begin{displaymath}
-\vec{E}, \vec{H} = f(x,y,z) \neq f(t) \rightarrow \frac{\delta}{\delta t} = 0
-\end{displaymath}
+$\vec{E}, \vec{H} = f(x,y,z) \neq f(t) \rightarrow \frac{\delta}{\delta t} = 0$
 
 \noindent
-Faraday
-\begin{displaymath}
-\nabla \times \vec{E} = 0 \qquad \qquad \qquad \oint\limits_C \vec{E} \cdot \vec{dl} = 0
-\end{displaymath}
-
+Faraday\\
+$\nabla \times \vec{E} = 0 \qquad \qquad \qquad \oint\limits_C \vec{E} \cdot \vec{dl} = 0$
 \noindent
-Ampere
-\begin{displaymath}
-\nabla \times \vec{H} = \vec{J} \qquad \qquad \qquad \oint\limits_C \vec{H} \cdot \vec{dl} = I
-\end{displaymath}
-
+Ampere\\
+$\nabla \times \vec{H} = \vec{J} \qquad \qquad \qquad \oint\limits_C \vec{H} \cdot \vec{dl} = I$
 \noindent
-Gauss
-\begin{displaymath}
-\nabla \times \vec{D} = \varphi_{v} \qquad \qquad \qquad \oint\limits_C \vec{D} \cdot \vec{ds} = Q
-\end{displaymath}
-
+Gauss\\
+$\nabla \times \vec{D} = \varphi_{v} \qquad \qquad \qquad \oint\limits_C \vec{D} \cdot \vec{ds} = Q$
 \noindent
-No Magnetic Charges
-\begin{displaymath}
-\nabla \times \vec{B} = 0 \qquad \qquad \qquad \oint\limits_C \vec{B} \cdot \vec{ds} = 0
-\end{displaymath}
-
+No Magnetic Charges\\
+$\nabla \times \vec{B} = 0 \qquad \qquad \qquad \oint\limits_C \vec{B} \cdot \vec{ds} = 0$
 \noindent
-Modified Ampere's Law
-\begin{displaymath}
-\frac{\delta \vec{D}}{\delta t}
-\end{displaymath}
+Modified Ampere's Law\\
+$\frac{\delta \vec{D}}{\delta t}$
 
 \end{document}
