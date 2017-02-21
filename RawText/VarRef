@@ -10,16 +10,26 @@
 
 
 \begin{tabular}{ l c l }
-E & &Electric Field Intensity\\
-D & & Electric Current Density\\
-H & & Magnetic Field Intensity\\
-B & & Magnetic Flux Density\\
-$\varphi _{v}$ & & Charge Density \\
-$\epsilon _{0}$ & & Permittivity \\
-J & & Density \\
-V & & Electric Potential\\
-Q & & Charge\\
-$q_{ev}$& &Electric Current Density\\
+
+E & &Electric Field Intensity\\ \\
+D & & Electric Current Density\\ \\
+H & & Magnetic Field Intensity\\ \\
+B & & Magnetic Flux Density\\ \\
+J & & Current Density\\ \\
+$\varphi _{v}$ & & Volume Charge Density \\ \\
+c & & Free Space Velocity\\ \\
+$\epsilon_{0}$ & & Free Space Permittivity \\ \\
+$\mu_{0}$ & & Free Space Permiability \\ \\
+$\frac{d \vec{D}}{dt} \equiv J_{d}$ & & Displacement Current Density\\ \\
+V & & Electric Potential\\ \\
+Q & & Charge\\ \\
+$q_{ev}$& &Electric Current Density\\ \\
+$\vec{J} = $ Conduction Current + Convection Current & & \\ \\
+$\sigma \vec{E}$ & & Conduction Current  \\ \\
+$\sigma$ & & Conductivity \\ \\
+$\varphi_{v} \vec{v}$  & & Convection Current  \\ \\
+$\vec{v}$ & & Velocity of Charge \\ \\
+
 \end{tabular}
 
 \end{document}
