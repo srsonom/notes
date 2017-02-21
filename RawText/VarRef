@@ -5,30 +5,39 @@
 \begin{document}
 
 \begin{center}
-\textbf{Variable Key}\\ \\
+\textbf{Variable Key}\\
 \end{center}
 
 
 \begin{tabular}{ l c l }
 
-E & &Electric Field Intensity\\ \\
-D & & Electric Current Density\\ \\
-H & & Magnetic Field Intensity\\ \\
+E & &Electric Field Intensity\\
+D & & Electric Current Density\\
+H & & Magnetic Field Intensity\\ 
 B & & Magnetic Flux Density\\ \\
-J & & Current Density\\ \\
-$\varphi _{v}$ & & Volume Charge Density \\ \\
-c & & Free Space Velocity\\ \\
-$\epsilon_{0}$ & & Free Space Permittivity \\ \\
-$\mu_{0}$ & & Free Space Permiability \\ \\
-$\frac{d \vec{D}}{dt} \equiv J_{d}$ & & Displacement Current Density\\ \\
-V & & Electric Potential\\ \\
-Q & & Charge\\ \\
+%%%%%%%%%%%%%%%%%%%%%%
+J & & Current Density\\
+$\varphi _{v}$ & & Volume Charge Density \\
+c & & Free Space Velocity\\
+$\epsilon$ & & Permittivity of Medium \\
+$\epsilon_{0}$ & & Free Space Permittivity \\
+$\epsilon_{r}$ & & Relative Permittivity \\
+$\mu_{0}$ & & Free Space Permiability \\
+$\frac{d \vec{D}}{dt} \equiv J_{d}$ & & Displacement Current Density\\
+V & & Electric Potential\\
+Q & & Charge\\
 $q_{ev}$& &Electric Current Density\\ \\
-$\vec{J} = $ Conduction Current + Convection Current & & \\ \\
-$\sigma \vec{E}$ & & Conduction Current  \\ \\
-$\sigma$ & & Conductivity \\ \\
-$\varphi_{v} \vec{v}$  & & Convection Current  \\ \\
+%%%%%%%%%%%%%%%%%%%%%%
+$\vec{J} = $ Conduction Current + Convection Current & & \\
+$\sigma \vec{E}$ & & Conduction Current  \\
+$\sigma$ & & Conductivity \\
+$\varphi_{v} \vec{v}$  & & Convection Current  \\
 $\vec{v}$ & & Velocity of Charge \\ \\
+%%%%%%%%%%%%%%%%%%%%%%
+$x_{e}$ & & Electric Susceptibility \\
+$\vec{P}$ & & Electric Polarization Vector\\
+$x_{m}$ & & Magnetic Susceptibility \\
+$\vec{P}$ & & Magnetic Polarization Vector\\
 
 \end{tabular}
 
