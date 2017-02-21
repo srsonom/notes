@@ -8,6 +8,7 @@
 \textbf{ECEN 322}\\
 \end{center}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
 \textbf{Summary of Coordinate Transformations}\\
 
@@ -19,25 +20,21 @@ Spherical & Cartesian\\
 \end{tabular}\\
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
 \textbf{Divergence Theorum and Curl}\\
 
 %notes
-\noindent
 \begin{tabular}{ l }
-Gradient - Scalar Field \\
-
-Divergence - Vector Field \\
-
-If \begin{math} \nabla \cdot \vec{A} = 0  \end{math} then \begin{math} \vec{A} = \end{math} solenoidal vector fied (whatever goes in comes out) \\
-
-for Circulation *** $\Delta$ is underlined in Nguyen's notation. Look into this. \\
+Gradient - Scalar Field \\ \\
+Divergence - Vector Field \\ \\
+If \begin{math} \nabla \cdot \vec{A} = 0  \end{math} then \begin{math} \vec{A} = \end{math} solenoidal vector fied (whatever goes in comes out) \\ \\
+for Circulation *** $\Delta$ is underlined in Nguyen's notation. Look into this. \\ \\
 \end{tabular}\\
-$\quad$\\
 
 \noindent
 \begin{tabular}{ l c l }
-Divergence Theorum & &  $\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS}$ $\rightarrow$ $\int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS}$\\ \\
+Divergence Theorum & &  $\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS}$ \\ \\
 
 Circulation of $\vec{A}$ around countour C & &  $\Delta \oint\limits_C \vec{A} \vec{dl}$ \\ \\
 
@@ -45,45 +42,54 @@ Curl & & $\nabla \times \vec{A} = \frac{1}{\Delta s} \lim_{\Delta s \to \O} \oin
 
 Stoke's Theorum & & $\int\limits_S \nabla \times \vec{A} \cdot \vec{ds} = \oint\limits_C \vec{A} \cdot \vec{dl}$\\ \\
 
-Two Null Identitites & & $\nabla \times (\nabla V) \equiv 0$\\
- & &$\nabla \cdot (\nabla \vec{A}) \equiv 0$\\ \\
+Two Null Identitites & & $\nabla \times (\nabla V) \equiv 0$\\ \\
+ & &$\nabla \cdot (\nabla \vec{A}) \equiv 0$\\
 
 \end{tabular}\\
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
 \textbf{Maxwell's Equations} \\
 
-%notes
+%beginnotes
+\begin{tabular}{ l }
 $\vec{E}(x,y,z,t), \vec{H}, \vec{D}, \vec{B}, \vec{J}, \varphi_{v}$ \\ \\
+Can be in differential or integral form \\ \\
+$\int\limits_S \vec{J} \cdot \vec{dS}  = I \leftarrow$ total current flow thru open surface\\ \\
+\end{tabular} \\
+%endnotes
 
+%begineqations
 \noindent
-\begin{tabular}{ l c l }
-Faraday & & $\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}$ \\ \\
+\begin{tabular}{ l c l l }
+Contributor & & Differential Form & Integral Form \\ \\
+Faraday & & $\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}$ & $\oint\limits_C \vec{E} \cdot \vec{dl} = \frac{- \delta \vec{B}}{\delta t} \cdot \vec{dS}$ \\ \\
 
-Ampere & & $\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}$ \\ \\
+Ampere & & $\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}$ & $\int\limits_S \vec{J} \cdot \vec{dS} + \int\limits_S \frac{d\vec{D}}{dt} \cdot \vec{dS}$\\ \\
 
-Gauss & & $\nabla \cdot \vec{D} = \varphi_{v}$ \\ \\
+Gauss & & $\nabla \cdot \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
 
-No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ \\ \\
+No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$\\ \\
 
 Modified Ampere's Law & & $\frac{\delta \vec{D}}{\delta t}$ \\ \\
 \end{tabular}
+%endequations
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
-\textbf{Special Cases of Maxwell's Equations: Static $\vec{E}$ and $\vec{H}$} \\
+\textbf{Special Cases of Maxwell's Equations: Static $\vec{E}$ and $\vec{H}$} \\ \\
 %notes
-$\vec{E}, \vec{H} = f(x,y,z) \neq f(t) \rightarrow \frac{\delta}{\delta t} = 0$ \\
+$\vec{E}, \vec{H} = f(x,y,z) \neq f(t) \rightarrow \frac{\delta}{\delta t} = $ \\
 
-\begin{tabular}{ l c l}
+\begin{tabular}{ l c l l}
 
-Faraday & & $\nabla \times \vec{E} = 0 \qquad \qquad \qquad \oint\limits_C \vec{E} \cdot \vec{dl} = 0$ \\ \\
+Faraday & & $\nabla \times \vec{E} = 0$ & $\oint\limits_C \vec{E} \cdot \vec{dl} = 0$ \\ \\
 
-Ampere & & $\nabla \times \vec{H} = \vec{J} \qquad \qquad \qquad \oint\limits_C \vec{H} \cdot \vec{dl} = I$ \\ \\
+Ampere & & $\nabla \times \vec{H} = \vec{J}$ & $\oint\limits_C \vec{H} \cdot \vec{dl} = I$ \\ \\
 
-Gaus & & $\nabla \times \vec{D} = \varphi_{v} \qquad \qquad \qquad \oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
+Gaus & & $\nabla \times \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
 
-No Magnetic Charges & & $\nabla \times \vec{B} = 0 \qquad \qquad \qquad \oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
+No Magnetic Charges & & $\nabla \times \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
 
 Modified Ampere's Law & & $\frac{\delta \vec{D}}{\delta t}$ \\ \\
 
