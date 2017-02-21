@@ -54,7 +54,7 @@ Two Null Identitites & & $\nabla \times (\nabla V) \equiv 0$\\ \\
 %beginnotes
 \begin{tabular}{ l }
 $\vec{E}(x,y,z,t), \vec{H}, \vec{D}, \vec{B}, \vec{J}, \varphi_{v}$ \\ \\
-Can be in differential or integral form \\ \\
+Can be in differential or integral form  - Differential form is most generally used\\ \\
 $\int\limits_S \vec{J} \cdot \vec{dS}  = I \leftarrow$ total current flow thru open surface\\ \\
 \end{tabular} \\
 %endnotes
