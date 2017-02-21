@@ -7,39 +7,37 @@
 \noindent
 \textbf{Summary of Coordinate Transformations}\\
 
-\noindent
-Cartesian to Cylindrical\\
-Cylindrical to Cartesian\\
+\begin{tabular}{ l l }
+Cartesian & Cylindrical \\
+Cylindrical & Cartesian\\
+Cartesian & Spherical\\
+Spherical & Cartesian\\
+\end{tabular}\\
 
-\noindent
-Cartesian to Spherical\\
-Spherical to Cartesian\\
 
 \noindent
 \textbf{Divergence Theorum and Curl}\\
 
-\noindent
+%notes
+\begin{tabular}{ l }
 Gradient - Scalar Field \\
+
 Divergence - Vector Field \\
 
-\noindent
 If \begin{math} \nabla \cdot \vec{A} = 0  \end{math} then \begin{math} \vec{A} = \end{math} solenoidal vector fied (whatever goes in comes out) \\
 
-\noindent
-Divergence Theorum
-
-$\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS}$
-$\int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS}$
+for Circulation *** $\Delta$ is underlined in Nguyen's notation. Look into this. \\
+\end{tabular}\\
+$\quad$\\
 
 \noindent
-Circulation of $\vec{A}$ around countour C\\
+\begin{tabular}{ l l }
+Divergence Theorum & $\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS}$ $\rightarrow$ $\int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS}$\\
 
-$\Delta \oint\limits_C \vec{A} \vec{dl}$
-*** $\Delta$ is underlined in Nguyen's notation. Look into this. \\
+Circulation of $\vec{A}$ around countour C & $\Delta \oint\limits_C \vec{A} \vec{dl}$ 
+\end{tabular}\\
 
-%%%%
-\noindent
-Curl\\
+Curl \\
 $\nabla \times \vec{A} = \frac{1}{\Delta s} \lim_{\Delta s \to \O} \oint\limits_S \vec{A} \vec{dl}$\\
 
 \noindent
