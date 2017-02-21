@@ -9,6 +9,7 @@
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \noindent
 \textbf{Summary of Coordinate Transformations}\\
 
@@ -21,6 +22,7 @@ Spherical & Cartesian\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \noindent
 \textbf{Divergence Theorum and Curl}\\
 
@@ -48,6 +50,7 @@ Two Null Identitites & & $\nabla \times (\nabla V) \equiv 0$\\ \\
 \end{tabular}\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \noindent
 \textbf{Maxwell's Equations} \\
 
@@ -72,10 +75,12 @@ Gauss & & $\nabla \cdot \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \
 No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$\\ \\
 
 Modified Ampere's Law & & $\frac{\delta \vec{D}}{\delta t}$ \\ \\
-\end{tabular}
-%endequations
 
+\end{tabular} \\ \\
+
+When a field is static, $\frac{d}{dt} = 0$ \\ \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \noindent
 \textbf{Special Cases of Maxwell's Equations: Static $\vec{E}$ and $\vec{H}$} \\ \\
 %notes
@@ -89,10 +94,35 @@ Ampere & & $\nabla \times \vec{H} = \vec{J}$ & $\oint\limits_C \vec{H} \cdot \ve
 
 Gaus & & $\nabla \cdot \vec{D} = \varphi_{v}$ & $\oint\limits_C \vec{D} \cdot \vec{ds} = Q$ \\ \\
 
-No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
+Magnetic Charge & & $\nabla \cdot \vec{B} = 0$ & $\oint\limits_C \vec{B} \cdot \vec{ds} = 0$ \\ \\
 
-Modified Ampere's Law & & $\frac{\delta \vec{D}}{\delta t}$ \\ \\
+$\vec{E} = - \nabla V$ & & \\ \\
 
-\end{tabular}
+Poisson & & $\nabla^2 V= \frac{\varphi_{v}}{\epsilon}$ &  \\ \\
+
+LaPlace & & $\nabla^2 V = 0$ & \\ \\
+
+
+\end{tabular} \\ \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent
+Charge Conservation $\quad$ $\nabla \cdot \vec{J} = - \frac{d \varphi_{v}}{dt}$, v - some arbitrary volume \\
+
+\noindent
+\textbf{Special Cases of Maxwell's Equations: Source-Free Regions ($\varphi = 0, J = 0$)} \\ \\
+
+\begin{tabular}{ l c l }
+
+Faraday & & $\nabla \times \vec{E} = \frac{d \vec{B}}{dt}$ \\ \\
+
+Ampere & & $\nabla \times \vec{H} = \frac{d \vec{D}}{dt}$ \\ \\
+
+Gaus & & $\nabla \cdot \vec{D} = 0$ \\ \\
+
+No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ \\ \\
+
+\end{tabular} \\ \\
 
 \end{document}
