@@ -28,73 +28,53 @@ If \begin{math} \nabla \cdot \vec{A} = 0  \end{math} then \begin{math} \vec{A} =
 \noindent
 Divergence Theorum
 
-\begin{displaymath}\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS} \end{displaymath}
-\begin{displaymath} \int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS} \end{displaymath}
+$\int\limits_V \nabla \vec{A} \cdot dV = \oint\limits_S \vec{A} \vec{dS}$
+$\int\limits_V \nabla \vec{D} \cdot dV = \oint\limits_S \vec{D} \vec{dS}$
 
 \noindent
-Circulation of $\vec{A}$ around countour C
+Circulation of $\vec{A}$ around countour C\\
 
-\begin{displaymath}
-\Delta \oint\limits_C \vec{A} \vec{dl}
-\end{displaymath}
+$\Delta \oint\limits_C \vec{A} \vec{dl}$
 *** $\Delta$ is underlined in Nguyen's notation. Look into this. \\
 
 %%%%
 \noindent
-Curl
-\begin{displaymath}
-\nabla \times \vec{A} = \frac{1}{\Delta s} \lim_{\Delta s \to \O} \oint\limits_S \vec{A} \vec{dl} 
-\end{displaymath}
+Curl\\
+$\nabla \times \vec{A} = \frac{1}{\Delta s} \lim_{\Delta s \to \O} \oint\limits_S \vec{A} \vec{dl}$\\
 
 \noindent
-Stoke's Theorum
-
-\begin{displaymath}
-\int\limits_S \nabla \times \vec{A} \cdot \vec{ds} = \oint\limits_C \vec{A} \cdot \vec{dl}
-\end{displaymath}
+Stoke's Theorum\\
+$\int\limits_S \nabla \times \vec{A} \cdot \vec{ds} = \oint\limits_C \vec{A} \cdot \vec{dl}$\\
 
 \noindent
-Two Null Identitites
+Two Null Identitites\\
+$\nabla \times (\nabla V) \equiv 0$\\
 
-\begin{displaymath}
-\nabla \times (\nabla V) \equiv 0
-\end{displaymath}
-
-\begin{displaymath}
-\nabla \cdot (\nabla \vec{A}) \equiv 0
-\end{displaymath}
+$\nabla \cdot (\nabla \vec{A}) \equiv 0$\\
 
 \noindent
 \textbf{Maxwell's Equations}
 
-\begin{displaymath}
-\vec{E}(x,y,z,t), \vec{H}, \vec{D}, \vec{B}, \vec{J}, \varphi_{v} 
-\end{displaymath}
+$\vec{E}(x,y,z,t), \vec{H}, \vec{D}, \vec{B}, \vec{J}, \varphi_{v}$
 
 \noindent
-Faraday
-\begin{displaymath}
-\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}
-\end{displaymath}
+Faraday\\
+$\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}$
 
 \noindent
-Ampere
-\begin{displaymath}
-\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}
-\end{displaymath}
+Ampere\\
+$\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}$
 
 \noindent
-Gauss
-\begin{displaymath}
-\nabla \cdot \vec{D} = \varphi_{v}
-\end{displaymath}
+Gauss\\
+$\nabla \cdot \vec{D} = \varphi_{v}$
 
 \noindent
-No Magnetic Charges
+No Magnetic Charges\\
 $\nabla \cdot \vec{B} = 0$
 
 \noindent
-Modified Ampere's Law
+Modified Ampere's Law\\
 $\frac{\delta \vec{D}}{\delta t}$
 
 \noindent
