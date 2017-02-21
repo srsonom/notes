@@ -1,7 +1,9 @@
 # Spring 2017 LATEX Notes
+Constantly updated. Usually correct.
 
 ## ECEN 322
-IN PROGRESS: [Equation Sheet](PDF/ECEN322_Equations.pdf)
+[Equation Sheet](PDF/ECEN322_Equations.pdf)
+[Variable Reference Sheet](PDF/VarRef.pdf)
 
 ## ECEN 314
 None
