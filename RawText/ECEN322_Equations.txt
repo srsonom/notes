@@ -62,7 +62,7 @@ $\int\limits_S \vec{J} \cdot \vec{dS}  = I \leftarrow$ total current flow thru o
 %begineqations
 \noindent
 \begin{tabular}{ l c l l }
-Contributor & & Differential Form & Integral Form \\ \\
+Contributor & & Differential Form (Point Form) & Integral Form (Large Scale Form)\\ \\
 Faraday & & $\nabla \times \vec{E} = \frac{- \delta \vec{B}}{\delta t}$ & $\oint\limits_C \vec{E} \cdot \vec{dl} = \frac{- \delta \vec{B}}{\delta t} \cdot \vec{dS}$ \\ \\
 
 Ampere & & $\nabla \times \vec{H} = \vec{J} + \frac{- \delta \vec{D}}{\delta t}$ & $\int\limits_S \vec{J} \cdot \vec{dS} + \int\limits_S \frac{d\vec{D}}{dt} \cdot \vec{dS}$\\ \\
