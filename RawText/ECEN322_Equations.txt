@@ -125,6 +125,6 @@ No Magnetic Charges & & $\nabla \cdot \vec{B} = 0$ \\ \\
 
 \end{tabular} \\ \\
 
-$\vec{J} = $ Conduction Current + Convection Current & & \\
+$\vec{J} = $ Conduction Current + Convection Current \\
 
 \end{document}
