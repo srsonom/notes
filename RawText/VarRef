@@ -22,13 +22,18 @@ c & & Free Space Velocity\\
 $\epsilon$ & & Permittivity of Medium \\
 $\epsilon_{0}$ & & Free Space Permittivity \\
 $\epsilon_{r}$ & & Relative Permittivity \\
+$\mu$ & &  Permiability \\
 $\mu_{0}$ & & Free Space Permiability \\
-$\frac{d \vec{D}}{dt} \equiv J_{d}$ & & Displacement Current Density\\
+$\mu_{r}$ & &  Permiability of Medium ( 1 for most materials) \\
+$\vec{P}$ & & Electric Polarization Vector \\
+$\vec{M}$ & & Magnetic Polarization Vector\\ \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$ J_{d} \equiv \frac{d \vec{D}}{dt}$ & & Displacement Current Density\\
 V & & Electric Potential\\
 Q & & Charge\\
 $q_{ev}$& &Electric Current Density\\ \\
 %%%%%%%%%%%%%%%%%%%%%%
-$\vec{J} = $ Conduction Current + Convection Current & & \\
+
 $\sigma \vec{E}$ & & Conduction Current  \\
 $\sigma$ & & Conductivity \\
 $\varphi_{v} \vec{v}$  & & Convection Current  \\
@@ -38,6 +43,18 @@ $x_{e}$ & & Electric Susceptibility \\
 $\vec{P}$ & & Electric Polarization Vector\\
 $x_{m}$ & & Magnetic Susceptibility \\
 $\vec{P}$ & & Magnetic Polarization Vector\\
+$\eta$ & & Intrinsic Impedance \\
+$\beta = $ k & & Propogation Constant \\
+$\omega$ & & Frequency \\
+$\rho$ & & Density \\
+$\gamma$ & & Propogation Constant \\
+$\alpha$ & & Attenuation Constant \\
+$\beta$ & & Phase Constant \\
+$\lambda$ & & Wavelength \\
+$E_{0}^{+}$ & & Electric Field @ z = 0 of Incident Wave \\
+$e$ & & Euler's Constant\\
+$\delta$ & & Skin Depth \\
+$U_{p}$ & & Phase Velocity\\
 
 \end{tabular}
 
