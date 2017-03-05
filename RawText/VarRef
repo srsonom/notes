@@ -10,39 +10,38 @@
 
 
 \begin{tabular}{ l c l }
-
+Maxwell Equations \\
 E & &Electric Field Intensity\\
-D & & Electric Current Density\\
+D & & Electric Flux Density (Electric Displacement)\\
 H & & Magnetic Field Intensity\\ 
-B & & Magnetic Flux Density\\ \\
-%%%%%%%%%%%%%%%%%%%%%%
+B & & Magnetic Flux Density\\
 J & & Current Density\\
 $\varphi _{v}$ & & Volume Charge Density \\
-c & & Free Space Velocity\\
+c & & Free Space Velocity\\ \\
+
 $\epsilon$ & & Permittivity of Medium \\
 $\epsilon_{0}$ & & Free Space Permittivity \\
-$\epsilon_{r}$ & & Relative Permittivity \\
+$\epsilon_{r}$ & & Relative Permittivity of Medium \\ \\
 $\mu$ & &  Permiability \\
 $\mu_{0}$ & & Free Space Permiability \\
-$\mu_{r}$ & &  Permiability of Medium ( 1 for most materials) \\
-$\vec{P}$ & & Electric Polarization Vector \\
+$\mu_{r}$ & &  Relative Permittivity of Medium  ( 1 for most materials) \\ \\
+
+$x_{e}$ & & Electric Susceptibility \\
+$\vec{P}$ & & Electric Polarization Vector\\
+$x_{m}$ & & Magnetic Susceptibility \\
 $\vec{M}$ & & Magnetic Polarization Vector\\ \\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$ J_{d} \equiv \frac{d \vec{D}}{dt}$ & & Displacement Current Density\\
+
 V & & Electric Potential\\
 Q & & Charge\\
 $q_{ev}$& &Electric Current Density\\ \\
-%%%%%%%%%%%%%%%%%%%%%%
 
 $\sigma \vec{E}$ & & Conduction Current  \\
 $\sigma$ & & Conductivity \\
 $\varphi_{v} \vec{v}$  & & Convection Current  \\
 $\vec{v}$ & & Velocity of Charge \\ \\
-%%%%%%%%%%%%%%%%%%%%%%
-$x_{e}$ & & Electric Susceptibility \\
-$\vec{P}$ & & Electric Polarization Vector\\
-$x_{m}$ & & Magnetic Susceptibility \\
-$\vec{P}$ & & Magnetic Polarization Vector\\
+
+
+
 $\eta$ & & Intrinsic Impedance \\
 $\beta = $ k & & Propogation Constant \\
 $\omega$ & & Frequency \\
