@@ -1,38 +1,35 @@
-\documentclass{article}
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage[margin=0.3in]{geometry}
+\usepackage{multicol}
 \usepackage{amsmath}
-
+ 
 \begin{document}
-
-\begin{center}
-\textbf{Variable Key}\\
-\end{center}
-
+\begin{multicols}{3}
+%
 \noindent
 \begin{tabular}{ l l l }
-E & &Electric Field Intensity\\
-D & & Electric Flux Density (Electric Displacement)\\
-H & & Magnetic Field Intensity\\ 
-B & & Magnetic Flux Density\\
+E & &E Field Intensity\\
+D & &E Flux Density/Displacement\\
+H & & M Field Intensity\\ 
+B & & M Flux Density\\
 J & & Current Density\\
 $\varphi _{v}$ & & Volume Charge Density \\
-c & & Free Space Velocity\\ \\
+c & & Free Space Velocity\\
 
 $\epsilon$ & & Permittivity of Medium \\
 $\epsilon_{0}$ & & Free Space Permittivity Constant\\
 $\epsilon_{r}$ & & Relative Permittivity of Medium \\
 \end{tabular} \\
 $\epsilon = \epsilon_{0}\epsilon_{r}$ \\
-
-
 \noindent
 \begin{tabular}{ l l l }
 $\mu$ & &  Permiability \\
-$\mu_{0}$ & & Free Space Permiability Constant\\
-$\mu_{r}$ & &  Relative Permittivity of Medium  (1 for most materials) \\
+$\mu_{0}$ & & Free Space Pb Constant\\
+$\mu_{r}$ & &  Relative Pb of Med  (1 for most) \\
 \end{tabular} \\
 $\mu = \mu_{0}\mu_{r}$ \\
-
 \noindent
 \begin{tabular}{ l l l }
 $x_{e}$ & & Electric Susceptibility \\
@@ -42,50 +39,45 @@ $\vec{M}$ & & Magnetic Polarization Vector\\
 \end{tabular} \\
 \noindent
 $\epsilon_{r} = \frac{\epsilon}{\epsilon_{0}}$ $= 1 + x_{e}$ \\
-$\mu_{r} = \frac{\mu}{\mu_{0}}$ $= 1 + x_{m}$ \\ \\
-Constitutive Relations\\
+$\mu_{r} = \frac{\mu}{\mu_{0}}$ $= 1 + x_{m}$ \\
 $\vec{B} = \epsilon \vec{E}$ \\
-$\vec{D} = \mu \vec{H}$ \\ \\
-Current Density $=$ Conduction Current Density$+$ Convection Current Density\\
+$\vec{D} = \mu \vec{H}$ \\
+i Density $=$ Conduction$+$ Convection\\
 Conduction Current Density: $\vec{J} = \sigma \vec{E}$ \\
- Convection Current Density: $\vec{J} = \varphi _{v} \vec{v}$\\ \\
+Convection Current Density: $\vec{J} = \varphi _{v} \vec{v}$\\
 \begin{tabular}{ l l l }
 $\sigma$ & & Conductivity \\
 $\vec{v}$ & & Velocity of Charge \\
-
 V & & Electric Potential\\
 Q & & Charge\\
-$q_{ev}$& &Electric Current Density\\ \\
+$q_{ev}$& &Electric Current Density\\
 \end{tabular} \\
 Poisson: $\nabla^2 V= \frac{\varphi_{v}}{\epsilon}$  \\ 
 LaPlace: $\nabla^2 V = 0$ \\
-Charge Conservation: $\nabla \cdot \vec{J} = - \frac{d \varphi_{v}}{dt}$ \\ \\
-
+Charge Conservation: $\nabla \cdot \vec{J} = - \frac{d \varphi_{v}}{dt}$ \\
 \noindent
-Boundary Conditions \\ \\
-
+$\uvec{a}$
 \noindent
 $\gamma = \alpha + j \beta$ \\
 \begin{tabular}{ l l l }
 $\alpha$ & & Attenuation Constant \\
 $\beta$ & & Phase Constant \\
-$\gamma$ & & Propogation Constant \\ \\
-
+$\gamma$ & & Propogation Constant \\
 \end{tabular} \\
-$k = \frac{2\pi}{\lambda} = \frac{\omega}{v_{p}}$\\ \\
+$k = \frac{2\pi}{\lambda} = \frac{\omega}{v_{p}}$\\
 \begin{tabular}{ l l l }
 $\eta$ & & Intrinsic Impedance \\
 $\omega$ & & Frequency \\
 $\rho$ & & Density \\
-$\lambda$ & & Wavelength \\ \\
-
+$\lambda$ & & Wavelength \\
 $E^{+}$ & & Electric Field in $+$z direction \\
 $E^{-}$ & & Electric Field $-$z direction\\
-$E_{0}^{+}$ & & Electric Field @ z = 0 of Incident Wave \\ \\
-
+$E_{0}^{+}$ & & Electric Field @ z = 0\\
 $e$ & & Euler's Constant\\
 $\delta$ & & Skin Depth of  a Conductor\\
 $v_{p}$ & & Phase Velocity\\
-\end{tabular}
 
-\end{document}
+\end{tabular}
+%
+\end{multicols}
+ \end{document}
