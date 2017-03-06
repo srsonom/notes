@@ -7,7 +7,7 @@
  
 \begin{document}
 \begin{multicols}{3}
-%
+%------------------------------------
 \noindent
 \begin{tabular}{ l l l }
 E & &E Field Intensity\\
@@ -17,12 +17,13 @@ B & & M Flux Density\\
 J & & Current Density\\
 $\varphi _{v}$ & & Volume Charge Density \\
 c & & Free Space Velocity\\
-
+%------------------------------------
 $\epsilon$ & & Permittivity of Medium \\
 $\epsilon_{0}$ & & Free Space Permittivity Constant\\
 $\epsilon_{r}$ & & Relative Permittivity of Medium \\
 \end{tabular} \\
 $\epsilon = \epsilon_{0}\epsilon_{r}$ \\
+%------------------------------------
 \noindent
 \begin{tabular}{ l l l }
 $\mu$ & &  Permiability \\
@@ -30,6 +31,7 @@ $\mu_{0}$ & & Free Space Pb Constant\\
 $\mu_{r}$ & &  Relative Pb of Med  (1 for most) \\
 \end{tabular} \\
 $\mu = \mu_{0}\mu_{r}$ \\
+%------------------------------------
 \noindent
 \begin{tabular}{ l l l }
 $x_{e}$ & & Electric Susceptibility \\
@@ -37,6 +39,7 @@ $\vec{P}$ & & Electric Polarization Vector\\
 $x_{m}$ & & Magnetic Susceptibility \\
 $\vec{M}$ & & Magnetic Polarization Vector\\
 \end{tabular} \\
+%------------------------------------
 \noindent
 $\epsilon_{r} = \frac{\epsilon}{\epsilon_{0}}$ $= 1 + x_{e}$ \\
 $\mu_{r} = \frac{\mu}{\mu_{0}}$ $= 1 + x_{m}$ \\
@@ -45,6 +48,7 @@ $\vec{D} = \mu \vec{H}$ \\
 i Density $=$ Conduction$+$ Convection\\
 Conduction Current Density: $\vec{J} = \sigma \vec{E}$ \\
 Convection Current Density: $\vec{J} = \varphi _{v} \vec{v}$\\
+%------------------------------------
 \begin{tabular}{ l l l }
 $\sigma$ & & Conductivity \\
 $\vec{v}$ & & Velocity of Charge \\
@@ -52,32 +56,72 @@ V & & Electric Potential\\
 Q & & Charge\\
 $q_{ev}$& &Electric Current Density\\
 \end{tabular} \\
+%------------------------------------
 Poisson: $\nabla^2 V= \frac{\varphi_{v}}{\epsilon}$  \\ 
 LaPlace: $\nabla^2 V = 0$ \\
 Charge Conservation: $\nabla \cdot \vec{J} = - \frac{d \varphi_{v}}{dt}$ \\
+%------------------------------------
 \noindent
-$\uvec{a}$
+$\hat{a}(E_{1} - E_{2}) = 0$\\
+$\hat{a}(H_{1} - H_{2}) = J_{s}$\\
+$\hat{a}(D_{1} - D_{2}) = \varphi_{s}$\\
+$\hat{a}(B_{1} - B_{2}) = 0$\\
+between 2 perfect media\\
+$\quad J_{s} = \varphi_{s} = 0$\\
+between perfect dielec and conduct\\
+$\quad E = D = 0$\\
+%------------------------------------
+free space: $\sigma = 0$\\
+lossless dielectric: $\sigma = 0 or << \omega \epsilon$\\
+lossy dielectric: $\sigma = $ finite num\\
+good conductor: $\sigma = 0 or >> \omega \epsilon$\\
+%------------------------------------
 \noindent
 $\gamma = \alpha + j \beta$ \\
 \begin{tabular}{ l l l }
+$\gamma$ & & Propogation Constant \\
 $\alpha$ & & Attenuation Constant \\
 $\beta$ & & Phase Constant \\
-$\gamma$ & & Propogation Constant \\
 \end{tabular} \\
-$k = \frac{2\pi}{\lambda} = \frac{\omega}{v_{p}}$\\
+%------------------------------------
+\noindent
+$k = \frac{2\pi}{\lambda} = \frac{\omega}{v_{p}} = \omega \sqrt{\epsilon \mu} = \frac{\omega}{c}$\\
+$\beta = \frac{2 \pi}{\lambda}$
+$\lambda = \frac{2 \pi}{k_{0}}$
+%------------------------------------
 \begin{tabular}{ l l l }
 $\eta$ & & Intrinsic Impedance \\
 $\omega$ & & Frequency \\
 $\rho$ & & Density \\
 $\lambda$ & & Wavelength \\
+\end{tabular}\\
+%-------------------------------------
+loss tangent: $\tan(\delta_{c}) = \frac{\epsilon ''}{\epsilon '}$\\
+$v_{p} = \frac{v_{0}}{\sqrt{\epsilon_{r}\mu{r}}}$ \\
+$\lambda = \frac{\lambda_{0}}{\sqrt{\epsilon_{r}\mu{r}}}$ \\
+$\beta = \beta_{o} \sqrt{\mu_{r}\epsilon_{r}}$ \\
+$\eta = \eta_{o} \sqrt{\frac{\mu_{r}}{\epsilon_{r}}}$ \\
+%------------------------------------
+\begin{tabular}{ l l l }
 $E^{+}$ & & Electric Field in $+$z direction \\
 $E^{-}$ & & Electric Field $-$z direction\\
 $E_{0}^{+}$ & & Electric Field @ z = 0\\
 $e$ & & Euler's Constant\\
 $\delta$ & & Skin Depth of  a Conductor\\
 $v_{p}$ & & Phase Velocity\\
-
 \end{tabular}
-%
+%------------------------------------
+\noindent
+Hemholtz\\
+$\nabla \times \nabla \times \vec{E}$ \\
+$= \nabla \cdot \nabla \cdot \vec{E} - \nabla^2 \vec{E}$\\
+time domain\\
+$\nabla^2 \vec{E}+k^2\vec{E} = 0$ \\
+$\nabla^2 \vec{H}+k^2\vec{H} = 0$ \\
+frequency domain\\
+$\nabla^2 \vec{E}+k^2\vec{E} = 0$ \\
+$\nabla^2 \vec{H}+k^2\vec{H} = 0$ \\
+%-------------------------------------------
+
 \end{multicols}
  \end{document}
