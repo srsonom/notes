@@ -14,3 +14,10 @@ for i 1:1:5;
 subplot(5,2,2*i-1);
 plot(t,Bcos(j(i),:));
 ylabel(['B['num2str(j(i)-1) ']cos('num2str(j(i)-1) '\omega_0n)']);
+xlabel('n');
+axis([-0.5 0.5 -1 1]);
+subplot(5,2,2*i);
+plot(t,xJhat(j(i),:));
+ylabel(['x'num2str(j(i)-1)'(t)']);
+xlabel('n');
+end
