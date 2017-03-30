@@ -1,3 +1,4 @@
+%p3.107
 k = 1:1:99;
 t = linspace(-0.5,0.5,400);
 B = zeros(1,100);
@@ -21,3 +22,12 @@ plot(t,xJhat(j(i),:));
 ylabel(['x'num2str(j(i)-1)'(t)']);
 xlabel('n');
 end
+
+%p3.109
+%(a)
+RC = 0.1;
+k = -100:1:100;
+t = linspace(-0.5,0.5,201);
+H = (1/RC)./(1i*2*pi+1/RC);
+X = sin(pi*k/2)./(k*pi);
+X(101)=0.5;
