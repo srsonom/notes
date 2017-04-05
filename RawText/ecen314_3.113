@@ -1,0 +1,19 @@
+%(a)
+W = 0:0.1:100;
+B = 8;
+A = [1 4 8 8];
+H = freqs(B,A,W);
+semilogx(W,20*log10(abs(H)))
+xlabel('omega');
+ylabel('Magnitude in dB');
+axis tight;
+
+%(b)
+W = 0:0.1:100;
+B = [1 0 0 0];
+A = [1 2 2 1];
+H = freqs(B,A,W);
+semilogx(W,20*log10(abs(H)))
+xlabel('omega');
+ylabel('Magnitude in dB');
+axis tight;
